@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/flights}
+    username: ${SPRING_DATASOURCE_USERNAME:flight}
+    password: ${SPRING_DATASOURCE_PASSWORD:flight}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
