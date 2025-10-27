@@ -55,9 +55,9 @@ Atualize o arquivo `application.yml` com as credenciais corretas.
 ```yaml
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/flight_db
-    username: root
-    password: root
+    url: jdbc:postgresql://localhost:5432/flight_db
+    username: postgres
+    password: postgres
   jpa:
     hibernate:
       ddl-auto: update
