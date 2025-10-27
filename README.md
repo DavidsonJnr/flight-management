@@ -46,6 +46,7 @@ API RESTful para gerenciamento de voos, incluindo integração com fornecedores 
 ```bash
 git clone https://github.com/DavidsonJnr/flight-management.git
 cd flight-reservation
+docker-compose up -d
 ```
 
 ### 2. Configurar banco de dados
